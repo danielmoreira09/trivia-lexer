@@ -19,8 +19,6 @@ pkgs.stdenv.mkDerivation {
     ocamlPackages.ppx_deriving
     ocamlPackages.ppx_import
     ocamlPackages.menhir
-    ocamlPackages.ocaml-migrate-parsetree
-    ocamlPackages.ppx_tools_versioned
     
     pkgs.rlwrap
 
