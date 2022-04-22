@@ -17,10 +17,10 @@
 %token                 LET
 %token                 IN
 
-%start <Absyn.lprogram> program
-
 %left                  LT
 %left                  PLUS
+
+%start <Absyn.lprogram> program
 
 %%
 
